@@ -1,0 +1,112 @@
+body {
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
+
+h2 {
+  color: rgb(100, 2, 104);
+  font-weight: bolder;
+  justify-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: burlywood;
+  box-shadow: inset;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.search-container {
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+  border: 1px solid #380134;
+  border-radius: 5px;
+}
+
+#searchInput {
+  padding: 10px;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+main {
+  padding: 30px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+
+.movie-card img {
+  max-width: 100%;
+  max-height: 100px; /* Adjust height for better visibility */
+  object-fit: contain; /* Crop image to fit within the card */
+}
+
+button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  color: rgb(42, 61, 165);
+  font-weight: bold;
+}
+
+/* Search results styles */
+#searchResults .card {
+  width: 100%;
+  max-width: 200px;
+  min-height: 280px; /* Adjust height for better visibility */
+  margin: 5px;
+  color: #034407;
+  font-weight: bolder;
+  object-fit: cover;
+}
+
+#favouritesList .card {
+  width: 100%;
+  max-width: 200px;
+  min-height: 280px; /* Adjust height for better visibility */
+  margin: 10px;
+  border: 1px solid #f0ad4e;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#favouritesList .card-img-top {
+  height: 150px; /* Adjust height for better visibility */
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+#favouritesList .card-body {
+  padding: 10px;
+}
+
+#favouritesList .card-title {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#favouritesList .more-button {
+  margin-top: 10px;
+}
